@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{0d669aae-3ef5-443e-ae1f-02a4333b6456}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Pliki pomocnicze">
+      <UniqueIdentifier>{d7247485-d03a-4261-b578-3be3750f21fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programy cieniujące">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>glsl;frac;vert</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="v_shader.glsl">
+      <Filter>Programy cieniujące</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="f_shader.glsl">
+      <Filter>Programy cieniujące</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\camera.h">
+      <Filter>Pliki pomocnicze</Filter>
+    </ClInclude>
+    <ClInclude Include="src\filesystem.h">
+      <Filter>Pliki pomocnicze</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mesh.h">
+      <Filter>Pliki pomocnicze</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model.h">
+      <Filter>Pliki pomocnicze</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shader.h">
+      <Filter>Pliki pomocnicze</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image.h">
+      <Filter>Pliki pomocnicze</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
